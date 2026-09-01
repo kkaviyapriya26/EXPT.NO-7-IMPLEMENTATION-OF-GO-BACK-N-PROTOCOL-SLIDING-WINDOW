@@ -30,7 +30,7 @@ while(window_start<=n)
 printf("\nSending frames:\n"); scanf("%d",&ack);
 printf("Enter frame number with no acks :%d",ack); if(ack == 0)
 {
-printf("Enter frame number with no ACK forward\n"); window_start += window_size;
+printf("Enter frame number with no ACK forward\n"); window_start += window_size; 
  
 }
 else
